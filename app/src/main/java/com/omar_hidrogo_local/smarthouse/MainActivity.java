@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
         switch (requestCode){
             case CODIGO_SOLICITUD_PERMISO:
                 if(chacarStatusPermiso()){
-                    // Toast.makeText(MainActivity.this, "Ya esta activo el permiso para el Bluetooth", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(MainActivity.this, "Ya esta activo el permiso para el Bluetooth", Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(MainActivity.this, "No esta activo el permiso para el Bluetooth", Toast.LENGTH_SHORT).show();
                 }
